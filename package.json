@@ -1,0 +1,33 @@
+{
+  "name": "web3events",
+  "version": "1.0.0",
+  "description": "Learning how to create a web 3 event management app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node scripts/run.js",
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaalexakr/web3events.git"
+  },
+  "keywords": [
+    "events",
+    "web3",
+    "community"
+  ],
+  "author": "annaalexa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/annaalexakr/web3events/issues"
+  },
+  "homepage": "https://github.com/annaalexakr/web3events#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
